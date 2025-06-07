@@ -1,0 +1,99 @@
+{
+  "npcs": [
+    {
+      "name": "Andre of Astora (blackmish)",
+      "bits": [
+        {
+          "offset": "0xFE",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xF95",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x11DB",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D7D",
+          "bit": 1,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Giant Blacksmith",
+      "bits": [
+        {
+          "offset": "0x101",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x4695",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D74",
+          "bit": 6,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Solaire of Astora",
+      "bits": [
+        {
+          "offset": "0xD5",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0xD6",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x4695",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 3,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Darkmoon Knightess (fire keeper)",
+      "bits": [
+        {
+          "offset": "0x64",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0xDA",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x4695",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 0,
+          "reverse": true
+        }
+      ]
+    }
+  ]
+}
