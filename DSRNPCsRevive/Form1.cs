@@ -5,32 +5,61 @@ namespace DSRNPCsRevive
     public partial class Form1 : Form
     {
         private string _savePath;
+        private Setting _settings;
+
         public Form1()
         {
             InitializeComponent();
+            LoadSettings();
         }
 
+        private void LoadSettings()
+        {
+            _settings = SettingHelper.LoadSettings();
+
+            if (!string.IsNullOrEmpty(_settings.SaveFilePath) && File.Exists(_settings.SaveFilePath))
+            {
+                _savePath = _settings.SaveFilePath;
+                LoadSaveFile(_savePath);
+            }
+        }
+
+        private void SaveSettings()
+        {
+            _settings.SaveFilePath = _savePath;
+            SettingHelper.SaveSettings(_settings);
+        }
+
+        private void LoadSaveFile(string filePath)
+        {
+            try
+            {
+                string destPath = Path.Combine(Application.StartupPath, Path.GetFileName(filePath));
+                File.Copy(filePath, destPath, true);
+
+                var characters = DSRSaveEditor.ReadSave(destPath).ToList();
+                FillDataGridView(characters);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to read file: {ex.Message}");
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
+
+            if (!string.IsNullOrEmpty(_settings.SaveFilePath))
+            {
+                ofd.InitialDirectory = Path.GetDirectoryName(_settings.SaveFilePath);
+            }
+
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 _savePath = ofd.FileName;
-
-                string sourcePath = ofd.FileName;
-                string destPath = Path.Combine(Application.StartupPath, Path.GetFileName(sourcePath));
-                File.Copy(sourcePath, destPath, true);
-
-                try
-                {
-                    var characters = DSRSaveEditor.ReadSave(destPath).ToList();
-                    FillDataGridView(characters);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Failed to read file: {ex.Message}");
-                }
+                LoadSaveFile(_savePath);
+                SaveSettings();
             }
         }
 
@@ -39,7 +68,6 @@ namespace DSRNPCsRevive
             dataGridView1.Columns.Clear();
             dataGridView1.Rows.Clear();
 
-            // Add columns: Slot, Name, Action
             var colSlot = new DataGridViewTextBoxColumn
             {
                 Name = "Slot",
@@ -72,7 +100,7 @@ namespace DSRNPCsRevive
                 {
                     var row = dataGridView1.Rows[rowIndex];
                     row.Cells[1].Style.ForeColor = Color.Gray;
-                    row.Cells[2] = new DataGridViewTextBoxCell(); // Remove button
+                    row.Cells[2] = new DataGridViewTextBoxCell();
                     row.Cells[2].Value = "";
                     row.ReadOnly = true;
                 }
@@ -81,21 +109,24 @@ namespace DSRNPCsRevive
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex < 0 || e.RowIndex == dataGridView1.RowCount - 1 || e.ColumnIndex != 2) return; // Only "Open" button
+            if (e.RowIndex < 0 || e.RowIndex == dataGridView1.RowCount - 1 || e.ColumnIndex != 2) return;
 
             var name = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
             if (name == "EMPTY") return;
 
             int slotNumber = int.Parse(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
-
             var form = new NPCForm(_savePath, slotNumber);
             form.ShowDialog();
+        }
 
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            SaveSettings();
+            base.OnFormClosed(e);
         }
     }
 }
