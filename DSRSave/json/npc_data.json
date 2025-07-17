@@ -181,6 +181,41 @@
       ]
     },
     {
+      "name": "Anastacia of Astora (fire keeper)",
+      "bits": [
+        {
+          "offset": "0x62",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xE4",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x1461",
+          "bit": 0,
+          "reverse": false
+        },
+        {
+          "offset": "0x1461",
+          "bit": 1,
+          "reverse": false
+        },
+        {
+          "offset": "0x1462",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0x1499",
+          "bit": 2,
+          "reverse": false
+        }
+      ]
+    },
+    {
       "name": "Darkmoon Knightess (fire keeper)",
       "bits": [
         {
@@ -657,7 +692,7 @@
       ]
     },
     {
-      "name": "Dark Sun Gwyndolin",
+      "name": "Dark Sun Gwyndolin (boss)",
       "bits": [
         {
           "offset": "0x5F",
@@ -942,11 +977,301 @@
       ]
     },
     {
-      "name": "Ornstein and Smough",
+      "name": "Trusty Patches",
+      "bits": [
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x120",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x120",
+          "bit": 5,
+          "reverse": false
+        },
+        {
+          "offset": "0x1495",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x149A",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x14057",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D8F",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 5,
+          "reverse": false
+        },
+        {
+          "offset": "0xF95",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xF96",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x14F5A",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 3,
+          "reverse": false
+        },
+        {
+          "offset": "0x1493",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x1495",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x14F58",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6D",
+          "bit": 1,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Knight Lautrec of Carim",
+      "bits": [
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 5,
+          "reverse": false
+        },
+        {
+          "offset": "0xF95",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xF96",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x14F5A",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x117",
+          "bit": 3,
+          "reverse": false
+        },
+        {
+          "offset": "0x1493",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x1495",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x14F58",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6D",
+          "bit": 1,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Hawkeye Gough",
+      "bits": [
+        {
+          "offset": "0x138",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x138",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0x238F",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x2395",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x23C4",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x13157",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x13158",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D71",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x16DE9",
+          "bit": 0,
+          "reverse": false
+        }
+      ]
+    },
+    {
+      "name": "Marvellous Chester",
+      "bits": [
+        {
+          "offset": "0x13D",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x13D",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x238F",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x2395",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x239A",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x13156",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D70",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x16DBE",
+          "bit": 7,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Ornstein and Smough (boss)",
       "bits": [
         {
           "offset": "0x55",
           "bit": 3,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Artorias the Abysswalker (boss)",
+      "bits": [
+        {
+          "offset": "0x2356",
+          "bit": 6,
           "reverse": true
         }
       ]
