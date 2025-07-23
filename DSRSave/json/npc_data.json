@@ -342,6 +342,66 @@
           "offset": "0x16D6C",
           "bit": 0,
           "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0xF7",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0xF7",
+          "bit": 6,
+          "reverse": false
+        },
+        {
+          "offset": "0x1493",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x1496",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x1595A",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D8F",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xF7",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0xF7",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x149E",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x4B9C",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x15958",
+          "bit": 5,
+          "reverse": true
         }
       ]
     },
@@ -1252,6 +1312,91 @@
         {
           "offset": "0x16DBE",
           "bit": 7,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Elizabeth (Mushroom)",
+      "bits": [
+        {
+          "offset": "0x141",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x142",
+          "bit": 1,
+          "reverse": false
+        },
+        {
+          "offset": "0x2395",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D77",
+          "bit": 5,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Eingyi",
+      "bits": [
+        {
+          "offset": "0xF3",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0xF3",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x3794",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x3795",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x39FB",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D75",
+          "bit": 1,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Alvina (cat)",
+      "bits": [
+        {
+          "offset": "0xB1",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x12E",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x12E",
+          "bit": 1,
+          "reverse": false
+        },
+        {
+          "offset": "0x12C59",
+          "bit": 4,
           "reverse": true
         }
       ]
