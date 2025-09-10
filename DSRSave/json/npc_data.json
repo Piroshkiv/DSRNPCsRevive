@@ -662,6 +662,16 @@
           "offset": "0x16D8E",
           "bit": 7,
           "reverse": true
+        },
+        {
+          "offset": "0x1462",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x1497",
+          "bit": 0,
+          "reverse": true
         }
       ]
     },
@@ -1397,6 +1407,301 @@
         {
           "offset": "0x12C59",
           "bit": 4,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Shiva of the East and Bodyguard",
+      "bits": [
+        {
+          "offset": "0xB1",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0xB2",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xBB",
+          "bit": 6,
+          "reverse": false
+        },
+        {
+          "offset": "0xBC",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xC1",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x11B",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x11B",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x12D",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x12E",
+          "bit": 1,
+          "reverse": false
+        },
+        {
+          "offset": "0x12F",
+          "bit": 1,
+          "reverse": false
+        },
+        {
+          "offset": "0x12F",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x12F",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x4D6",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x1E90",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x1E93",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x1E95",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x1E95",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x20D7",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x20D7",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x20D8",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0x12C53",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6D",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xB1",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0xB2",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xBB",
+          "bit": 6,
+          "reverse": false
+        },
+        {
+          "offset": "0xBC",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xC1",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x11B",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x11B",
+          "bit": 6,
+          "reverse": false
+        },
+        {
+          "offset": "0x12F",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x12F",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x378F",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x3795",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x3795",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x13657",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 5,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Quelana of Izalith",
+      "bits": [
+        {
+          "offset": "0xFA",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0xFA",
+          "bit": 4,
+          "reverse": false
+        },
+        {
+          "offset": "0x3795",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x3796",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x14557",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 2,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Domhnall of Zena",
+      "bits": [
+        {
+          "offset": "0x108",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0xA8F",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0xA94",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x14056",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D6C",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x108",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x1483",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x1496",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x14056",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D8E",
+          "bit": 0,
           "reverse": true
         }
       ]
