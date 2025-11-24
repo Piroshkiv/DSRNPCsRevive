@@ -21,6 +21,26 @@ namespace DSRNPCsRevive
             {
                 _savePath = _settings.SaveFilePath;
                 LoadSaveFile(_savePath);
+                return;
+            }
+            string docs = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string baseDir = Path.Combine(docs, @"NBGI\DARK SOULS REMASTERED");
+
+            if (Directory.Exists(baseDir))
+            {
+                var idFolders = Directory.GetDirectories(baseDir);
+
+                foreach (var folder in idFolders)
+                {
+                    string candidate = Path.Combine(folder, "DRAKS0005.sl2");
+
+                    if (File.Exists(candidate))
+                    {
+                        _savePath = candidate;
+                        LoadSaveFile(_savePath);
+                        return;
+                    }
+                }
             }
         }
 

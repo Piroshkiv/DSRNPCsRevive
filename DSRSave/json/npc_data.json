@@ -241,7 +241,7 @@
       ]
     },
     {
-      "name": "The Fair Lady (fire keeper)",
+      "name": "Quelaag's Sister/The Fair Lady (fire keeper)",
       "bits": [
         {
           "offset": "0x65",
@@ -1702,6 +1702,16 @@
         {
           "offset": "0x16D8E",
           "bit": 0,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "name": "Chaos Witch Quelaag (boss)",
+      "bits": [
+        {
+          "offset": "0x55",
+          "bit": 6,
           "reverse": true
         }
       ]
