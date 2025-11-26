@@ -862,7 +862,7 @@
       ]
     },
     {
-      "name": "Reah of Thorolund",
+      "name": "Reah of Thorolund and Paladine",
       "bits": [
         {
           "offset": "0xB1",
@@ -886,17 +886,32 @@
         },
         {
           "offset": "0xEB",
-          "bit": 0,
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0xEC",
+          "bit": 1,
           "reverse": true
         },
         {
           "offset": "0xEC",
-          "bit": 2,
-          "reverse": true
+          "bit": 4,
+          "reverse": false
+        },
+        {
+          "offset": "0xED",
+          "bit": 5,
+          "reverse": false
         },
         {
           "offset": "0xEE",
-          "bit": 2,
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xF2",
+          "bit": 7,
           "reverse": true
         },
         {
@@ -911,12 +926,37 @@
         },
         {
           "offset": "0x1494",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x1494",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x1494",
           "bit": 3,
           "reverse": true
         },
         {
-          "offset": "0x13B59",
+          "offset": "0x1497",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x13657",
           "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x13B53",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x13B54",
+          "bit": 1,
           "reverse": true
         },
         {
@@ -925,8 +965,18 @@
           "reverse": true
         },
         {
-          "offset": "0x16E30",
+          "offset": "0x16D8E",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D8E",
           "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D8E",
+          "bit": 6,
           "reverse": true
         },
         {
@@ -940,28 +990,143 @@
           "reverse": true
         },
         {
-          "offset": "0xB1",
-          "bit": 7,
-          "reverse": true
-        },
-        {
-          "offset": "0xE8",
-          "bit": 3,
-          "reverse": true
-        },
-        {
-          "offset": "0xE9",
-          "bit": 1,
-          "reverse": false
-        },
-        {
-          "offset": "0x2D90",
+          "offset": "0x16E31",
           "bit": 0,
           "reverse": true
         },
         {
-          "offset": "0x2D94",
+          "offset": "0x16E6E",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E6E",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E6E",
+          "bit": 4,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E76",
+          "bit": 0,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E76",
           "bit": 1,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E76",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E76",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E80",
+          "bit": 0,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E80",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E80",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E80",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E81",
+          "bit": 3,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E81",
+          "bit": 4,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E81",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E81",
+          "bit": 6,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E81",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E82",
+          "bit": 0,
+          "reverse": false
+        },
+        {
+          "offset": "0x16E82",
+          "bit": 4,
+          "reverse": false
+        },
+        {
+          "offset": "0xE8",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0xE9",
+          "bit": 2,
+          "reverse": false
+        },
+        {
+          "offset": "0xEB",
+          "bit": 7,
+          "reverse": false
+        },
+        {
+          "offset": "0xEC",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xF2",
+          "bit": 5,
+          "reverse": false
+        },
+        {
+          "offset": "0xF2",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x2D94",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x2D95",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x2D95",
+          "bit": 6,
           "reverse": true
         },
         {
@@ -970,8 +1135,18 @@
           "reverse": true
         },
         {
-          "offset": "0x16E01",
-          "bit": 5,
+          "offset": "0x16D87",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x16D87",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0x16E02",
+          "bit": 1,
           "reverse": true
         },
         {
@@ -1003,6 +1178,131 @@
           "offset": "0x16D6C",
           "bit": 3,
           "reverse": true
+        },
+        {
+          "offset": "0x26",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x26",
+          "bit": 4,
+          "reverse": true
+        },
+        {
+          "offset": "0x26",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x26",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x27",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0xAC",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0xE8",
+          "bit": 2,
+          "reverse": true
+        },
+        {
+          "offset": "0xE9",
+          "bit": 0,
+          "reverse": false
+        },
+        {
+          "offset": "0xF93",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0xF94",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x12D7",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x12D8",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x12DB",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x12DC",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x12DE",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x12DF",
+          "bit": 7,
+          "reverse": true
+        },
+        {
+          "offset": "0x12E1",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0x12E2",
+          "bit": 3,
+          "reverse": true
+        },
+        {
+          "offset": "0x12E6",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x1225C",
+          "bit": 5,
+          "reverse": true
+        },
+        {
+          "offset": "0x1225C",
+          "bit": 6,
+          "reverse": true
+        },
+        {
+          "offset": "0xAD",
+          "bit": 0,
+          "reverse": false
+        },
+        {
+          "offset": "0xE9",
+          "bit": 0,
+          "reverse": false
+        },
+        {
+          "offset": "0xE9",
+          "bit": 1,
+          "reverse": true
+        },
+        {
+          "offset": "0xF9D",
+          "bit": 5,
+          "reverse": false
         }
       ]
     },
